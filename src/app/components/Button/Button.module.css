@@ -1,0 +1,9 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 32;
+  background-color: #fbab34;
+}
