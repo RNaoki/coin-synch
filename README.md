@@ -8,7 +8,7 @@ yarn dev
 pnpm dev
 ```
 
-Secon, run the json server inside the json-server folder (src/app/api/json-server):
+Second, run the json server inside the json-server folder (src/app/api/json-server):
 
 ```bash
 npx json-server-auth -p 4000 db.json
