@@ -1,0 +1,26 @@
+.carousel {
+  display: flex;
+  max-width: 640px;
+  overflow-x: hidden;
+  justify-content: space-between;
+}
+
+.carousel::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  width: 640px;
+  height: 100%;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0) 40%
+  );
+}
+
+@media (max-width: 450px) {
+  .carousel {
+    display: none;
+  }
+}

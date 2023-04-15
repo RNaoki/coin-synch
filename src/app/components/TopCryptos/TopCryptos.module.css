@@ -1,0 +1,37 @@
+.topCryptosTable {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5d6670;
+  margin: 48px auto;
+  width: 1216px;
+}
+
+.tableTitle {
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8c8a97;
+}
+
+.viewTable {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 120px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fbab34;
+  cursor: pointer;
+}
+
+@media (max-width: 1146px) {
+  .topCryptosTable {
+    width: 80%;
+  }
+}

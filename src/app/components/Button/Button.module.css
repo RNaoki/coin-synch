@@ -6,4 +6,26 @@
   color: #ffffff;
   border-radius: 32;
   background-color: #fbab34;
+  border: none;
+}
+
+.containerMobile {
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 32;
+  background-color: #fbab34;
+  border: none;
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .container {
+    display: none;
+  }
+  .containerMobile {
+    display: flex;
+  }
 }

@@ -1,0 +1,43 @@
+.inputField {
+  height: 48px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 1px solid #e0deea;
+  border-radius: 6px;
+  padding: 16px 36px 16px 16px;
+}
+
+.inputFieldMobile {
+  display: none;
+  height: 48px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 1px solid #e0deea;
+  border-radius: 6px;
+  padding: 16px 36px 16px 16px;
+}
+
+.inputField::-webkit-outer-spin-button,
+.inputField::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputField[type='number'] {
+  -moz-appearance: textfield;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #acabb7;
+}
+
+@media (max-width: 450px) {
+  .inputField {
+    display: none;
+  }
+  .inputFieldMobile {
+    display: block;
+  }
+}

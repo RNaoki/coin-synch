@@ -1,0 +1,72 @@
+.container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5d6670df;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  overflow-y: hidden;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 448px;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #5d6670;
+  margin-bottom: 24px;
+}
+
+.userAgreement {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5d6670;
+  width: 350px;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.closeButton {
+  position: absolute;
+  top: 18.67px;
+  right: 18.67px;
+  cursor: pointer;
+}
+
+.forgotPassword {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8c8a97;
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .modal {
+    width: 100%;
+  }
+}

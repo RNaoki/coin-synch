@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 86px;
+  height: 100%;
+  left: 0px;
+  top: 64px;
+  background: #ffffff;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #e0deea;
+}
+
+.item {
+  position: relative;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.item:hover .tooltip {
+  display: block;
+  position: absolute;
+  left: 32px;
+  top: 0px;
+  z-index: 3;
+}
+
+.tooltip {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .container {
+    display: none;
+  }
+}

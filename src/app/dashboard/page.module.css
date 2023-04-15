@@ -1,0 +1,220 @@
+.container {
+  display: flex;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.content {
+  flex: 1;
+}
+
+.balance {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 112px;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.balanceTitle {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #5d6670;
+  text-align: start;
+}
+
+.balanceTitleDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8c8a97;
+  text-align: start;
+}
+
+.value {
+  display: flex;
+  background: #fff6e8;
+  border-radius: 0px 8px 8px 0px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #5d6670;
+}
+
+.cryptoText {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px 16px 8px;
+  flex-direction: column;
+}
+
+.balanceLeftContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.cardText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8c8a97;
+  width: 100%;
+}
+
+.cryptoInfo {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5d6670;
+}
+
+.daily {
+  height: 112px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.news {
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.newsTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5d6670;
+}
+
+.more {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffb94f;
+}
+
+.cryptoChange {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cryptoContainer {
+  display: flex;
+}
+
+.headerContent {
+  display: flex;
+  margin: 56px 0px 32px 0px;
+  justify-content: space-around;
+}
+
+@media (max-width: 1146px) {
+  .headerContent {
+    justify-content: space-around;
+  }
+  .balance {
+    width: 90%;
+    margin-bottom: 24px;
+  }
+
+  .daily {
+    width: 40%;
+    flex-direction: row;
+  }
+
+  .cardText {
+    width: 90px;
+  }
+
+  .news {
+    width: 40%;
+  }
+
+  .headerContent {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 450px) {
+  .headerContent {
+    justify-content: space-around;
+  }
+  .balance {
+    width: 90%;
+    margin-bottom: 24px;
+    font-size: 14px;
+    padding-left: 5%;
+    height: 70px;
+  }
+
+  .balanceIcon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .balanceTitleDescription {
+    display: none;
+  }
+
+  .daily {
+    width: 40%;
+    height: 230px;
+  }
+
+  .cryptoText {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cryptoContainer {
+    flex-direction: column;
+  }
+
+  .headerContent {
+    flex-wrap: wrap;
+  }
+
+  .news {
+    width: 40%;
+    height: 230px;
+    flex-direction: column;
+  }
+
+  .news img {
+    width: 100%;
+  }
+
+  .more {
+    display: none;
+  }
+}
