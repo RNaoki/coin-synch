@@ -1,0 +1,43 @@
+@value primary-100: #FFF6E8;
+@value primary-200: #FFE1B5;
+@value primary-300: #FFCD82;
+@value primary-400: #FFB94F;
+@value primary-500: #FBAB34;
+@value primary-600: #18B863;
+@value primary-700: #AD721A;
+@value primary-800: #7A4E0C;
+@value primary-900: #472C04;
+
+@value secondary-100: #F6F6F6;
+@value secondary-200: #F4F3F8;
+@value secondary-300: #E0DEEA;
+@value secondary-400: #ACABB7;
+@value secondary-500: #8C8A97;
+@value secondary-600: #716F7A;
+@value secondary-700: #5F5C6B;
+@value secondary-800: #4E4B59;
+@value secondary-900: #33303E;
+
+@value tertiary-100: #E8FAF1;
+@value tertiary-200: #D1F6E3;
+@value tertiary-300: #A4EDC6;
+@value tertiary-400: #8DE8B8;
+@value tertiary-500: #1BD171;
+@value tertiary-600: #18B863;
+@value tertiary-700: #149E55;
+@value tertiary-800: #0E6B3A;
+@value tertiary-900: #07381E;
+
+@value quartenary-100: #FFF2F3;
+@value quartenary-200: #FFCFD0;
+@value quartenary-300: #FF9497;
+@value quartenary-400: #FA7D80;
+@value quartenary-500: #EC3237;
+@value quartenary-600: #D42D31;
+@value quartenary-700: #A12226;
+@value quartenary-800: #6E171A;
+@value quartenary-900: #3B0C0E;
+
+@value white: #ffffff;
+@value black: #000000;
+@value text-base: #5D6670;

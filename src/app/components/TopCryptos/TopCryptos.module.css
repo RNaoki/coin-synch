@@ -1,3 +1,6 @@
+@value colors: "../../colors.css";
+@value primary-100, primary-500 from colors;
+
 .topCryptosTable {
   font-style: normal;
   font-weight: 400;
@@ -26,7 +29,7 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #fbab34;
+  color: primary-500;
   cursor: pointer;
 }
 

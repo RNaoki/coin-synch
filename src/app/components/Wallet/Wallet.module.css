@@ -1,3 +1,6 @@
+@value colors: "../../colors.css";
+@value primary-500 from colors;
+
 .container {
   position: relative;
   display: flex;
@@ -65,7 +68,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  color: #fbab34;
+  color: primary-500;
 }
 
 .tableTitle {

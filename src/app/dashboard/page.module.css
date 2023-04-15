@@ -1,3 +1,6 @@
+@value colors: "../colors.css";
+@value primary-100, primary-400 from colors;
+
 .container {
   display: flex;
   height: 100%;
@@ -42,7 +45,7 @@
 
 .value {
   display: flex;
-  background: #fff6e8;
+  background: primary-100;
   border-radius: 0px 8px 8px 0px;
   width: 50%;
   justify-content: center;
@@ -89,6 +92,7 @@
 
 .daily {
   height: 112px;
+  width: 20%;
   background: #ffffff;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -96,12 +100,13 @@
 
 .news {
   height: 112px;
+  width: 20%;
   display: flex;
-  justify-content: center;
   align-items: center;
   background: #ffffff;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  justify-content: space-between;
 }
 
 .newsTitle {
@@ -117,7 +122,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  color: #ffb94f;
+  color: primary-400;
 }
 
 .cryptoChange {
@@ -129,11 +134,12 @@
 
 .cryptoContainer {
   display: flex;
+  justify-content: space-between;
 }
 
 .headerContent {
   display: flex;
-  margin: 56px 0px 32px 0px;
+  margin: 56px 2% 32px 2%;
   justify-content: space-around;
 }
 
@@ -164,7 +170,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .headerContent {
     justify-content: space-around;
   }

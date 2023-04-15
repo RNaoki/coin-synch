@@ -1,3 +1,6 @@
+@value colors: "../../colors.css";
+@value primary-500 from colors;
+
 .container {
   cursor: pointer;
   display: flex;
@@ -5,7 +8,7 @@
   align-items: center;
   color: #ffffff;
   border-radius: 32;
-  background-color: #fbab34;
+  background-color: primary-500;
   border: none;
 }
 
@@ -16,12 +19,12 @@
   align-items: center;
   color: #ffffff;
   border-radius: 32;
-  background-color: #fbab34;
+  background-color: primary-500;
   border: none;
   width: 100%;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .container {
     display: none;
   }

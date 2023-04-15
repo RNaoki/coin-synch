@@ -52,7 +52,7 @@ export default function Header() {
       >
         <Image src="/UserPhoto.svg" width={32} height={32} alt="User Photo" />
         <p className={styles.userName}>
-          {user.name}
+          {user && user.name}
           <Image
             src="/ArrowDown.svg"
             width={8}

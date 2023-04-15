@@ -1,3 +1,6 @@
+@value colors: "./colors.css";
+@value primary-500 from colors;
+
 .container {
   flex: 1;
   display: flex;
@@ -20,7 +23,7 @@
   font-size: 48px;
   line-height: 56px;
   letter-spacing: -0.01em;
-  color: #fbab34;
+  color: primary-500;
   max-width: 590px;
 }
 
@@ -50,7 +53,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
-  color: #fbab34;
+  color: primary-500;
 }
 
 .infoTitle {
@@ -110,7 +113,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .description {
     display: flex;
     flex-direction: column;

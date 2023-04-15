@@ -19,7 +19,7 @@
   flex: 1;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .copyright {
     display: none;
   }

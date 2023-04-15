@@ -136,7 +136,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .priceContainer {
     position: absolute;
     min-width: 100vw;

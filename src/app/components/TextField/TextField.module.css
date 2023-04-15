@@ -33,7 +33,7 @@
   color: #acabb7;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .inputField {
     display: none;
   }

@@ -1,3 +1,6 @@
+@value colors: "../../colors.css";
+@value primary-100, primary-500 from colors;
+
 .container {
   display: flex;
   flex-direction: row;
@@ -5,17 +8,17 @@
   justify-content: center;
   padding: 4px 16px;
   height: 40px;
-  background: #fff6e8;
+  background: primary-100;
   border-radius: 4px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  color: #fbab34;
+  color: primary-500;
   margin-right: 32px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .container {
     margin-right: 8px;
   }

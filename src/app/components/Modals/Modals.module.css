@@ -65,7 +65,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .modal {
     width: 100%;
   }
